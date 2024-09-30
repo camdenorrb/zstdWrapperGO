@@ -1,5 +1,13 @@
 package main
 
+import (
+	"flag"
+	"fmt"
+	"github.com/klauspost/compress/zstd"
+	"io"
+	"os"
+)
+
 func main() {
 
 	fileDecompressPtr := flag.Bool("decompress", false, "Should we decompress")
