@@ -8,6 +8,8 @@ import (
 	"os"
 )
 
+// Thing
+
 func main() {
 
 	fileDecompressPtr := flag.Bool("decompress", false, "Should we decompress")
