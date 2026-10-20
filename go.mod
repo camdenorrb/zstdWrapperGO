@@ -1,5 +1,5 @@
 module zstdWrapper
 
-go 1.23.1
+go 1.24
 
-require github.com/klauspost/compress v1.17.10
+require github.com/klauspost/compress v1.18.7
